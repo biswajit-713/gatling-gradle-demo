@@ -1,0 +1,10 @@
+{
+  "simulation": "simulation.BookFlightSimulation",
+  "simulationId": "bookflightsimulation",
+  "start": 1512397504327,
+  "description": "",
+  "scenarios": ["Book Flight"],
+  "assertions": [
+
+  ]
+}
