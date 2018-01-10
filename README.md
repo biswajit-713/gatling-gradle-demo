@@ -27,14 +27,19 @@ If you want to use Intellij as the IDE, install [Intellij](https://www.jetbrains
 
 # Steps to run the simulation
 
-1. Open the project in Intellij
+1. Clone the repository to your machine.
 
-2. Verify the Scala SDK in Platform Settings. (File -> Project Structure -> Platform Settings -> Global Libraries)
+2. Open the project in Intellij
 
-3. Run the simulation in CLI using following command
+3. Verify the Scala SDK in Platform Settings. (File -> Project Structure -> Platform Settings -> Global Libraries)
+
+4. Run the simulation in CLI using following command
 
 osx/ Linux - ./gradlw gatlingRun
 
 windows - ./gradlew.bat gatlingRun
 
 It runs the simulation(s) present in  *src/gatling/scala/simulation*. The simulation result is available in *build/reports/gatling/{simulation-number}/index.html*
+
+
+**Note** - This test is written on OSX. While I have tried to make it os-agnostic, please log an issue/ raise a pull request if you find any os dependency.
